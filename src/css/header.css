@@ -1,0 +1,33 @@
+.header {
+  position: absolute;
+  width: 100%;
+}
+
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.header__logo-img {
+  width: 150px;
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header__title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.11;
+  color: var(--white-text-color);
+
+  margin-bottom: 60px;
+}
+
+.header__nav-link {
+  color: var(--white-text-color);
+}

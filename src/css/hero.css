@@ -1,0 +1,24 @@
+.hero {
+  background-color: var(--main-color);
+}
+
+.hero-row {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero__button-one,
+.hero__button-two {
+  min-width: 100px;
+  border: 1px solid var(--white-text-color);
+  padding: 8px;
+  border-radius: 20px;
+  color: var(--white-text-color);
+}
+
+.hero__button-two {
+  margin-left: 15px;
+}
