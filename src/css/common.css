@@ -1,10 +1,25 @@
 :root {
   --main-color: #07212e;
   --white-text-color: #ffffff;
+  --text-color-onWhite: #051922;
+  --hover-text: #990f02;
+}
+
+html {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  height: 100%;
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.1px;
+  line-height: 1.8;
+  color: var(--text-color-onWhite);
+  overflow-x: hidden;
 }
 
 .container {
